@@ -1,0 +1,100 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+    background-color: #3498db;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+    border-radius: 15px 15px 0 0;
+}
+
+.content {
+    padding: 20px;
+}
+
+.section {
+    margin-bottom: 30px;
+    background-color: #ecf0f1;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.section h2 {
+    margin-bottom: 15px;
+    color: #333333;
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 10px;
+}
+
+.section p {
+    margin: 0;
+    color: #555555;
+}
+
+.profile-pic {
+    max-width: 20%; 
+    height: auto; 
+    border-radius: 50%; 
+    display: block;
+    margin: 20px auto; 
+    border: 5px solid #ffffff; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+}
+
+.reference-list,
+.skills-list,
+.experience-list,
+.education-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.reference-list li,
+.skills-list li,
+.experience-list li,
+.education-list li {
+    padding: 5px 0;
+    color: #333333;
+}
+
+.reference-list li::before,
+.skills-list li:before,
+.experience-list li:before,
+.education-list li:before {
+    content: "•";
+    margin-right: 5px;
+    color: #3498db;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+a:hover {
+    color: #21618C;
+}
+
+.footer {
+    background-color: #3498db;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px;
+    border-radius: 0 0 15px 15px;
+}
